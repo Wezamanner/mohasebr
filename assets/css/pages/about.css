@@ -1,0 +1,220 @@
+/* =========================================
+   ABOUT HERO
+========================================= */
+
+.about-hero {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(11, 92, 87, .08),
+            rgba(200, 157, 69, .08)
+        );
+}
+
+
+/* =========================================
+   ABOUT INTRO
+========================================= */
+
+.about-intro {
+    padding: 7rem 0;
+    background: #fff;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 680px;
+}
+
+.about-content .eyebrow {
+    margin-bottom: 1rem;
+}
+
+.about-content h2 {
+    margin-bottom: 1.5rem;
+    color: var(--dark);
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.about-content p {
+    margin-bottom: 1.25rem;
+    color: var(--gray);
+}
+
+
+.about-highlight {
+    display: grid;
+    gap: 1rem;
+}
+
+
+.about-highlight-card {
+    padding: 2rem;
+
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+
+    background: var(--light);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.about-highlight-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow);
+}
+
+.about-highlight-card span {
+    display: inline-flex;
+
+    margin-bottom: 1rem;
+
+    color: var(--accent);
+
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.about-highlight-card h3 {
+    margin-bottom: .65rem;
+    color: var(--dark);
+}
+
+.about-highlight-card p {
+    color: var(--gray);
+}
+
+
+/* =========================================
+   VALUES
+========================================= */
+
+.about-values {
+    padding: 7rem 0;
+    background: var(--light);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.value-card {
+    padding: 2.25rem;
+
+    background: #fff;
+
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+
+    box-shadow: 0 8px 25px rgba(16, 24, 40, .05);
+}
+
+.value-card span {
+    display: block;
+
+    margin-bottom: 1.5rem;
+
+    color: var(--accent);
+
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.value-card h3 {
+    margin-bottom: .75rem;
+    color: var(--dark);
+}
+
+.value-card p {
+    color: var(--gray);
+}
+
+
+/* =========================================
+   ABOUT CTA
+========================================= */
+
+.about-cta {
+    padding: 5rem 0;
+    background: var(--primary);
+}
+
+.about-cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 3rem;
+}
+
+.about-cta .eyebrow {
+    color: var(--accent);
+}
+
+.about-cta h2 {
+    max-width: 650px;
+    margin: .5rem 0 1rem;
+
+    color: #fff;
+
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.about-cta p {
+    max-width: 650px;
+    color: rgba(255,255,255,.75);
+}
+
+.about-cta .btn {
+    flex-shrink: 0;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-cta-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .about-intro,
+    .about-values {
+        padding: 4.5rem 0;
+    }
+
+    .about-highlight-card,
+    .value-card {
+        padding: 1.5rem;
+    }
+
+}

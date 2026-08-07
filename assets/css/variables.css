@@ -1,0 +1,29 @@
+:root {
+    --primary: #075e54;
+    --primary-dark: #044a43;
+    --primary-light: #0f766e;
+
+    --accent: #c99a3d;
+    --accent-light: #e3bd6a;
+
+    --dark: #101828;
+    --dark-soft: #344054;
+
+    --gray: #667085;
+    --gray-light: #98a2b3;
+
+    --light: #f8fafc;
+    --white: #ffffff;
+
+    --border: #e4e7ec;
+
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    --shadow-sm: 0 2px 8px rgba(16, 24, 40, 0.06);
+    --shadow-md: 0 10px 30px rgba(16, 24, 40, 0.08);
+    --shadow-lg: 0 20px 50px rgba(16, 24, 40, 0.12);
+
+    --container: 1200px;
+}
