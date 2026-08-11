@@ -1,4 +1,4 @@
-import{a as t,H as r,F as p}from"./Footer-1h9cNQyF.js";import{C as n}from"./CTA-Kw0r2QHr.js";console.log("apply page loaded");document.body.innerHTML=`
+import{c as t,H as r,F as n,n as p,i as s,a as l,b as d}from"./navbar-B7tihyXE.js";import{C as c}from"./CTA-CP8DhSOF.js";document.body.innerHTML=`
     ${r()}
 
     <main>
@@ -327,9 +327,9 @@ import{a as t,H as r,F as p}from"./Footer-1h9cNQyF.js";import{C as n}from"./CTA-
         </section>
 
 
-        ${n()}
+        ${c()}
 
     </main>
 
-    ${p()}
-`;const a=document.querySelector("#applicationForm");a.addEventListener("submit",o=>{o.preventDefault();const e=new FormData(a),i={fullName:e.get("fullName"),phone:e.get("phone"),email:e.get("email"),country:e.get("country"),position:e.get("position"),experience:e.get("experience"),message:e.get("message")};console.log("Application submitted:",i),alert(`Thank you, ${i.fullName}! Your application has been received.`),a.reset()});
+    ${n()}
+`;const a=document.querySelector("#applicationForm");a.addEventListener("submit",o=>{o.preventDefault();const e=new FormData(a),i={fullName:e.get("fullName"),phone:e.get("phone"),email:e.get("email"),country:e.get("country"),position:e.get("position"),experience:e.get("experience"),message:e.get("message")};console.log("Application submitted:",i),alert(`Thank you, ${i.fullName}! Your application has been received.`),a.reset()});p();s();l();d();

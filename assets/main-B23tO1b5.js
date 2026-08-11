@@ -1,11 +1,11 @@
-import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty css             */import{S as l}from"./ServicesSection-HI2lGq5I.js";import{T as d}from"./Timeline-CPB9vhfR.js";import{C as m}from"./CTA-Kw0r2QHr.js";function s(a,i,t=""){return`
+import{c as r,h as i,s as n,H as o,F as c,n as l,i as d,a as m,b as v}from"./navbar-B7tihyXE.js";/* empty css             */import{S as p}from"./ServicesSection-HI2lGq5I.js";import{T as u}from"./Timeline-CPB9vhfR.js";import{C as h}from"./CTA-CP8DhSOF.js";function s(a,e,t=""){return`
         <a
-            href="${i}"
+            href="${e}"
             class="btn ${t}"
         >
             ${a}
         </a>
-    `}function p(){return`
+    `}function $(){return`
         <div class="verification-seal">
 
             <div class="verification-seal-inner">
@@ -21,7 +21,7 @@ import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty cs
             </div>
 
         </div>
-    `}function v(){return`
+    `}function f(){return`
         <section class="hero reveal">
 
             <div class="container hero-grid">
@@ -33,16 +33,16 @@ import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty cs
                     </p>
 
                     <h1>
-                        ${e.heading}
+                        ${i.heading}
                     </h1>
 
                     <p class="hero-text">
-                        ${e.subHeading}
+                        ${i.subHeading}
                     </p>
 
                     <div class="hero-actions">
-                        ${s(e.primaryButton,"contact.html","primary")}
-                        ${s(e.secondaryButton,"contact.html","secondary")}
+                        ${s(i.primaryButton,"contact.html","primary")}
+                        ${s(i.secondaryButton,"contact.html","secondary")}
                     </div>
 
                     <ul class="hero-meta">
@@ -60,7 +60,7 @@ import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty cs
                         alt="MOHASEBR workers preparing for overseas employment"
                     >
 
-                    ${p()}
+                    ${$()}
 
                 </div>
 
@@ -78,11 +78,11 @@ import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty cs
             </div>
 
         </section>
-    `}function u(a,i=""){return`
-        <article class="card ${i}">
+    `}function y(a,e=""){return`
+        <article class="card ${e}">
             ${a}
         </article>
-    `}function h(a){return u(`
+    `}function g(a){return y(`
         <article class="testimonial">
 
             <div class="testimonial-quote">
@@ -107,16 +107,21 @@ import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty cs
             </footer>
 
         </article>
-    `,"testimonial-card")}const $=[{name:"Amina",country:"Saudi Arabia",text:"Everything was transparent from registration until my arrival."},{name:"Mohammed",country:"Employer",text:"The agency provided professional workers and excellent communication."},{name:"Sara",country:"Saudi Arabia",text:"I felt supported throughout the entire recruitment process."}];document.body.innerHTML=`
+    `,"testimonial-card")}const A=[{name:"Amina",country:"Saudi Arabia",text:"Everything was transparent from registration until my arrival."},{name:"Mohammed",country:"Employer",text:"The agency provided professional workers and excellent communication."},{name:"Sara",country:"Saudi Arabia",text:"I felt supported throughout the entire recruitment process."}];document.body.innerHTML=`
+
     ${o()}
+
 
     <main>
 
-        ${v()}
+        ${f()}
 
-        ${l()}
+
+        ${p()}
+
 
         <!-- TESTIMONIALS -->
+
         <section class="testimonials reveal">
 
             <div class="container">
@@ -137,9 +142,10 @@ import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty cs
 
                 </div>
 
+
                 <div class="testimonial-grid">
 
-                    ${$.map(a=>h(a)).join("")}
+                    ${A.map(a=>g(a)).join("")}
 
                 </div>
 
@@ -147,11 +153,15 @@ import{a as r,h as e,s as n,H as o,F as c}from"./Footer-1h9cNQyF.js";/* empty cs
 
         </section>
 
-        ${d()}
 
-        ${m()}
+        ${u()}
+
+
+        ${h()}
 
     </main>
 
+
     ${c()}
-`;
+
+`;l();d();m();v();

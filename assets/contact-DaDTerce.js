@@ -1,4 +1,4 @@
-import{a,H as o,F as t}from"./Footer-1h9cNQyF.js";/* empty css             */import{C as e}from"./CTA-Kw0r2QHr.js";function n(){return`
+import{c as a,H as t,F as o,n,i as e,a as r,b as s}from"./navbar-B7tihyXE.js";/* empty css             */import{C as i}from"./CTA-CP8DhSOF.js";function c(){return`
         <section class="contact-card reveal">
 
             <div class="container contact-grid">
@@ -58,7 +58,7 @@ import{a,H as o,F as t}from"./Footer-1h9cNQyF.js";/* empty css             */imp
 
         </section>
     `}console.log("contact page loaded");document.body.innerHTML=`
-        ${o()}
+        ${t()}
 
         <main>
 
@@ -84,11 +84,11 @@ import{a,H as o,F as t}from"./Footer-1h9cNQyF.js";/* empty css             */imp
 
             </section>
 
-            ${n()}
+            ${c()}
 
-            ${e()}
+            ${i()}
 
         </main>
 
-        ${t()}
-    `;
+        ${o()}
+    `;n();e();r();s();

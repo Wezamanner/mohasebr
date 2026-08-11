@@ -1,4 +1,4 @@
-import{H as e,F as t}from"./Footer-1h9cNQyF.js";/* empty css             */import{T as a}from"./Timeline-CPB9vhfR.js";document.body.innerHTML=`
+import{H as e,F as a,n as t,i,a as s,b as n}from"./navbar-B7tihyXE.js";/* empty css             */import{T as r}from"./Timeline-CPB9vhfR.js";document.body.innerHTML=`
     ${e()}
 
     <main>
@@ -144,7 +144,7 @@ import{H as e,F as t}from"./Footer-1h9cNQyF.js";/* empty css             */impor
         </section>
 
 
-        ${a()}
+        ${r()}
 
 
         <section class="about-cta">
@@ -183,5 +183,5 @@ import{H as e,F as t}from"./Footer-1h9cNQyF.js";/* empty css             */impor
 
     </main>
 
-    ${t()}
-`;
+    ${a()}
+`;t();i();s();n();

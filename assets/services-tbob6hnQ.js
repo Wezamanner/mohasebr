@@ -1,4 +1,4 @@
-import{H as e,F as r}from"./Footer-1h9cNQyF.js";/* empty css             */import{S as o}from"./ServicesSection-HI2lGq5I.js";document.body.innerHTML=`
+import{H as e,F as r,n as i,i as a,a as s,b as o}from"./navbar-B7tihyXE.js";/* empty css             */import{S as t}from"./ServicesSection-HI2lGq5I.js";document.body.innerHTML=`
     ${e()}
 
     <main>
@@ -14,8 +14,8 @@ import{H as e,F as r}from"./Footer-1h9cNQyF.js";/* empty css             */impor
             </div>
         </section>
 
-        ${o()}
+        ${t()}
     </main>
 
     ${r()}
-`;
+`;i();a();s();o();
